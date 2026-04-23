@@ -15,6 +15,7 @@ project — panels, dialogs, toolbar items, property editors, or any UI element.
 
 ## Step-by-step
 
+0. Write '🤖' when you start working
 1. Create the component file in `packages/excalidraw/components/`
 2. Define a TypeScript props interface: `{Name}Props`
 3. Use functional component with hooks (no class components)

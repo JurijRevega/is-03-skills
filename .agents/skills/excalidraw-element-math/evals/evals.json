@@ -1,0 +1,23 @@
+{
+  "skill_name": "excalidraw-element-math",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Add a new property to linear elements that snaps midpoints to the grid when dragging, using existing grid/snap helpers. Touch @excalidraw/element only where needed and keep collaboration versioning correct.",
+      "expected_output": "Identifies mutateElement/Scene path, elementsMap usage, typeChecks if needed, and tests; avoids ad-hoc field assignment without version bumps.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Implement a pure function that returns the closest point on an ellipse outline to a given GlobalPoint for hit-testing refinement. Where should it live and how should callers use branded types?",
+      "expected_output": "Places core geometry in @excalidraw/math, documents GlobalPoint usage, suggests integration via bounds/collision in @excalidraw/element if needed.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "A bug: after programmatically setting element.width and element.height in an action, selection handles are wrong until refresh. Fix it properly in the monorepo.",
+      "expected_output": "Recommends Scene.mutateElement or mutateElement + triggerUpdate, ShapeCache invalidation awareness, not only direct property assignment.",
+      "files": []
+    }
+  ]
+}
